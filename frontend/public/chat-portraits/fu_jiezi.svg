@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 280" width="220" height="280">
+  <defs>
+    <linearGradient id="fj" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4ebe4"/>
+      <stop offset="100%" stop-color="#dcc4b8"/>
+    </linearGradient>
+    <linearGradient id="fjrobe" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3830"/>
+      <stop offset="100%" stop-color="#3a2018"/>
+    </linearGradient>
+    <radialGradient id="fjw" cx="52%" cy="30%" r="58%">
+      <stop offset="0%" stop-color="#fff4ec" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#a07060" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="220" height="280" rx="6" fill="url(#fj)"/>
+  <rect x="10" y="10" width="200" height="260" rx="4" fill="none" stroke="#7a5040" stroke-width="1.2" opacity="0.42"/>
+  <rect x="14" y="14" width="192" height="252" rx="2" fill="none" stroke="#4a3028" stroke-width="0.6" opacity="0.22"/>
+  <ellipse cx="110" cy="248" rx="72" ry="10" fill="#906050" opacity="0.1"/>
+  <ellipse cx="110" cy="90" rx="78" ry="88" fill="url(#fjw)"/>
+  <path fill="url(#fjrobe)" d="M110 120 C74 120 48 152 44 204 L40 266 L180 266 L176 204 C172 152 146 120 110 120Z"/>
+  <path fill="#2a1810" opacity="0.3" d="M110 120 L86 185 L134 185 Z"/>
+  <ellipse cx="110" cy="74" rx="31" ry="37" fill="#e8d4bc"/>
+  <path fill="#c04030" opacity="0.55" d="M100 42 L110 58 L120 42 L116 52 L104 52 Z"/>
+  <path fill="#2a1810" opacity="0.45" d="M88 48 Q110 38 132 48 Q124 60 110 56 Q96 60 88 48Z"/>
+</svg>

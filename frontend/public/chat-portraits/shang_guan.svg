@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 280" width="220" height="280">
+  <defs>
+    <linearGradient id="sg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8ecf2"/>
+      <stop offset="100%" stop-color="#c5ccd8"/>
+    </linearGradient>
+    <linearGradient id="sgrobe" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3d4a5c"/>
+      <stop offset="100%" stop-color="#2a3444"/>
+    </linearGradient>
+    <radialGradient id="sgw" cx="50%" cy="32%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#8899aa" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="220" height="280" rx="6" fill="url(#sg)"/>
+  <rect x="10" y="10" width="200" height="260" rx="4" fill="none" stroke="#5a6b7c" stroke-width="1.2" opacity="0.4"/>
+  <rect x="14" y="14" width="192" height="252" rx="2" fill="none" stroke="#3a4555" stroke-width="0.6" opacity="0.25"/>
+  <ellipse cx="110" cy="248" rx="72" ry="10" fill="#7a8a9a" opacity="0.1"/>
+  <ellipse cx="110" cy="92" rx="76" ry="86" fill="url(#sgw)"/>
+  <rect x="58" y="128" width="104" height="128" rx="6" fill="url(#sgrobe)"/>
+  <path fill="#1a2530" opacity="0.35" d="M110 128 L78 200 L142 200 Z"/>
+  <rect x="72" y="44" width="76" height="22" rx="3" fill="#c9a227" opacity="0.55"/>
+  <rect x="78" y="48" width="64" height="14" rx="2" fill="#8b6914" opacity="0.35"/>
+  <ellipse cx="110" cy="78" rx="32" ry="38" fill="#e8d4bc"/>
+  <path fill="#2a3444" opacity="0.7" d="M82 52 L138 52 L132 72 L88 72 Z"/>
+  <rect x="86" y="56" width="48" height="8" rx="1" fill="#1a2530" opacity="0.25"/>
+</svg>

@@ -1,0 +1,332 @@
+{
+  "note": "expect_codes 是释文含 answer_span 的简号。问句只暴露更常见的前四字或一句白话，不用整段释文当答案。",
+  "items": [
+    {
+      "id": "r-01",
+      "question": "候长吕宪的奉钱是多少",
+      "expect_codes": [
+        "DJ-train-3264"
+      ],
+      "answer_span": "候長吕憲奉錢千二百"
+    },
+    {
+      "id": "r-02",
+      "question": "长安到茂陵有多远",
+      "expect_codes": [
+        "DJ-train-6393"
+      ],
+      "answer_span": "長安至茂陵七十里"
+    },
+    {
+      "id": "r-03",
+      "question": "月氏到乌氏多少里",
+      "expect_codes": [
+        "DJ-train-6393"
+      ],
+      "answer_span": "月氏至烏氏五十里"
+    },
+    {
+      "id": "r-04",
+      "question": "乌氏到泾阳多少里",
+      "expect_codes": [
+        "DJ-train-6393"
+      ],
+      "answer_span": "烏氏至涇陽五十里"
+    },
+    {
+      "id": "r-05",
+      "question": "居延置到鲽里有多远",
+      "expect_codes": [
+        "DJ-train-6393"
+      ],
+      "answer_span": "居延置至鰈裏九十里"
+    },
+    {
+      "id": "r-06",
+      "question": "夫人付给奉世多少干饭",
+      "expect_codes": [
+        "DJ-test-5633"
+      ],
+      "answer_span": "夫人付奉世干飯"
+    },
+    {
+      "id": "r-07",
+      "question": "临木隧长徐忠的奉钱",
+      "expect_codes": [
+        "DJ-train-3264"
+      ],
+      "answer_span": "臨木隧長徐忠奉錢"
+    },
+    {
+      "id": "r-08",
+      "question": "建昭五年十月谁在付奉钱",
+      "expect_codes": [
+        "DJ-train-3264"
+      ],
+      "answer_span": "建昭五年十月丙寅"
+    },
+    {
+      "id": "r-09",
+      "question": "阳绀叩头记了什么",
+      "expect_codes": [
+        "DJ-train-1"
+      ],
+      "answer_span": "陽紺叩足頭"
+    },
+    {
+      "id": "r-10",
+      "question": "尊取牛肠记了多少",
+      "expect_codes": [
+        "DJ-val-3057"
+      ],
+      "answer_span": "尊取牛腸"
+    },
+    {
+      "id": "r-11",
+      "question": "甲渠候官綏元元年",
+      "expect_codes": [
+        "DJ-train-2788"
+      ],
+      "answer_span": "甲渠候官綏元元年"
+    },
+    {
+      "id": "r-12",
+      "question": "月食三石二月辛亥",
+      "expect_codes": [
+        "DJ-test-818",
+        "DJ-train-1113"
+      ],
+      "answer_span": "月食三石二月辛亥"
+    },
+    {
+      "id": "r-13",
+      "question": "三斗三升大大亖斛",
+      "expect_codes": [
+        "DJ-train-10"
+      ],
+      "answer_span": "三斗三升大大亖斛"
+    },
+    {
+      "id": "r-14",
+      "question": "斗三升少六月辛未",
+      "expect_codes": [
+        "DJ-train-2510"
+      ],
+      "answer_span": "斗三升少六月辛未"
+    },
+    {
+      "id": "r-15",
+      "question": "居延都尉博城骑千",
+      "expect_codes": [
+        "DJ-train-1767"
+      ],
+      "answer_span": "居延都尉博城騎千"
+    },
+    {
+      "id": "r-16",
+      "question": "居延甲渠候放免冠",
+      "expect_codes": [
+        "DJ-train-1502"
+      ],
+      "answer_span": "居延甲渠候放免冠"
+    },
+    {
+      "id": "r-17",
+      "question": "叩头死罪死罪十月",
+      "expect_codes": [
+        "DJ-train-139"
+      ],
+      "answer_span": "叩頭死罪死罪十月"
+    },
+    {
+      "id": "r-18",
+      "question": "甲渠鄣候汉彊等充",
+      "expect_codes": [
+        "DJ-train-1333"
+      ],
+      "answer_span": "甲渠鄣候漢彊等充"
+    },
+    {
+      "id": "r-19",
+      "question": "戍卒魏郡内黄半道",
+      "expect_codes": [
+        "DJ-train-1398"
+      ],
+      "answer_span": "戍卒魏郡内黄半道"
+    },
+    {
+      "id": "r-20",
+      "question": "新始建国地上戊亖",
+      "expect_codes": [
+        "DJ-train-1146"
+      ],
+      "answer_span": "新始建國地上戊亖"
+    },
+    {
+      "id": "r-21",
+      "question": "年十二月中与彭祖",
+      "expect_codes": [
+        "DJ-train-1436"
+      ],
+      "answer_span": "年十二月中與彭祖"
+    },
+    {
+      "id": "r-22",
+      "question": "食三石三月丙戌自",
+      "expect_codes": [
+        "DJ-train-1137"
+      ],
+      "answer_span": "食三石三月丙戌自"
+    },
+    {
+      "id": "r-23",
+      "question": "建国地皇上戊三年",
+      "expect_codes": [
+        "DJ-train-1990",
+        "DJ-train-2283",
+        "DJ-train-7008"
+      ],
+      "answer_span": "建國地皇上戊三年"
+    },
+    {
+      "id": "r-24",
+      "question": "建国天鳳一年十二",
+      "expect_codes": [
+        "DJ-train-5647",
+        "DJ-train-895"
+      ],
+      "answer_span": "建國天鳳一年十二"
+    },
+    {
+      "id": "r-25",
+      "question": "十一月食二石一斗",
+      "expect_codes": [
+        "DJ-train-1542"
+      ],
+      "answer_span": "十一月食二石一斗"
+    },
+    {
+      "id": "r-26",
+      "question": "国地皇上戊三年中",
+      "expect_codes": [
+        "DJ-train-2283"
+      ],
+      "answer_span": "國地皇上戊三年中"
+    },
+    {
+      "id": "r-27",
+      "question": "建武六年七月丁未",
+      "expect_codes": [
+        "DJ-train-380"
+      ],
+      "answer_span": "建武六年七月丁未"
+    },
+    {
+      "id": "r-28",
+      "question": "甲渠鄣守候博叩头",
+      "expect_codes": [
+        "DJ-train-210"
+      ],
+      "answer_span": "甲渠鄣守候博叩頭"
+    },
+    {
+      "id": "r-29",
+      "question": "年十一月乙未朔辛",
+      "expect_codes": [
+        "DJ-train-1152"
+      ],
+      "answer_span": "年十一月乙未朔辛"
+    },
+    {
+      "id": "r-30",
+      "question": "渠鄣守候敢言之谨",
+      "expect_codes": [
+        "DJ-train-1659",
+        "DJ-train-570"
+      ],
+      "answer_span": "渠鄣守候敢言之謹"
+    },
+    {
+      "id": "r-31",
+      "question": "一月食一斛五斗三",
+      "expect_codes": [
+        "DJ-train-6878"
+      ],
+      "answer_span": "一月食一斛五斗三"
+    },
+    {
+      "id": "r-32",
+      "question": "建武五年三月丙子",
+      "expect_codes": [
+        "DJ-train-1148"
+      ],
+      "answer_span": "建武五年三月丙子"
+    },
+    {
+      "id": "r-33",
+      "question": "戍卒东郡清世里鞠",
+      "expect_codes": [
+        "DJ-train-2893"
+      ],
+      "answer_span": "戍卒東郡清世里鞠"
+    },
+    {
+      "id": "r-34",
+      "question": "十二月辛巳第願十",
+      "expect_codes": [
+        "DJ-train-3044"
+      ],
+      "answer_span": "十二月辛巳第願十"
+    },
+    {
+      "id": "r-35",
+      "question": "吞远候长詡𨼾次行",
+      "expect_codes": [
+        "DJ-train-1760"
+      ],
+      "answer_span": "吞遠候長詡𨼾次行"
+    },
+    {
+      "id": "r-36",
+      "question": "皇上戊亖年亖月戊",
+      "expect_codes": [
+        "DJ-train-1858"
+      ],
+      "answer_span": "皇上戊亖年亖月戊"
+    },
+    {
+      "id": "r-37",
+      "question": "延甲渠第十𨼾长居",
+      "expect_codes": [
+        "DJ-train-2189"
+      ],
+      "answer_span": "延甲渠第十𨼾長居"
+    },
+    {
+      "id": "r-38",
+      "question": "延都尉章詣張掖大",
+      "expect_codes": [
+        "DJ-train-2924",
+        "DJ-train-3186"
+      ],
+      "answer_span": "延都尉章詣張掖大"
+    },
+    {
+      "id": "r-39",
+      "question": "承书从事農都下当",
+      "expect_codes": [
+        "DJ-train-4096"
+      ],
+      "answer_span": "承書從事農都下當"
+    },
+    {
+      "id": "r-40",
+      "question": "上戊亖年桼月尽九",
+      "expect_codes": [
+        "DJ-test-1158",
+        "DJ-train-1146"
+      ],
+      "answer_span": "上戊亖年桼月盡九"
+    }
+  ]
+}

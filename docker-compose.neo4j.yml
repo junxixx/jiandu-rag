@@ -1,0 +1,21 @@
+# 可选：本机未安装 Neo4j 时，用 Docker 起一个（需安装 Docker Desktop）
+#
+# 1) 把下面 NEO4J_AUTH 里的 neo4j/ 后面的密码改成你自己的，并同步写到 backend/.env 的 NEO4J_PASSWORD=
+# 2) 在项目根目录执行:
+#    docker compose -f docker-compose.neo4j.yml up -d
+# 3) 浏览器打开 http://localhost:7474 可进 Neo4j Browser（用户名 neo4j）
+# 4) 停服务: docker compose -f docker-compose.neo4j.yml down
+
+services:
+  neo4j:
+    image: neo4j:5-community
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      NEO4J_AUTH: "neo4j/dev-neo4j-local-only"
+    volumes:
+      - dujian_neo4j_data:/data
+
+volumes:
+  dujian_neo4j_data:

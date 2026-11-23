@@ -1,0 +1,56 @@
+# secrets
+.env
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.venv/
+**/venv/
+backend/.venv/
+backend/venv/
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.npm-cache/
+**/.npm-cache/
+**/.DS_Store
+*.local
+*.ttf
+*.TTF
+*.xlsx
+
+# local vector DB / model weights (too large; rebuild locally)
+backend/chroma_data/
+backend/chroma_data_v2/
+backend/models/
+backend/**/*.bin
+backend/**/*.safetensors
+
+# DeepJiandu raw corpus & labels (10GB+; keep offline)
+DeepJiandu/
+DeepJiandu_labels/
+
+# large 3D assets (many >50–100MB; GitHub rejects / warns)
+*.glb
+*.GLB
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+desktop.ini
+
+# logs / temp
+*.log
+tmp/
+temp/
+.cache/

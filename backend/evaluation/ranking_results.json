@@ -1,0 +1,2292 @@
+{
+  "summary": {
+    "keyword": {
+      "n": 40,
+      "hit_at_5": 0.975,
+      "mrr_at_5": 0.9625
+    },
+    "vector": {
+      "n": 40,
+      "hit_at_5": 0.625,
+      "mrr_at_5": 0.5092
+    },
+    "rrf": {
+      "n": 40,
+      "hit_at_5": 0.925,
+      "mrr_at_5": 0.7967
+    },
+    "rrf_rerank": {
+      "n": 40,
+      "hit_at_5": 0.925,
+      "mrr_at_5": 0.6425
+    },
+    "note": "Hit@5 / MRR@5 按 expect_codes 计算。没进前 5 的题倒数排名记 0。不是 RAGAS，也不是生成忠实度。"
+  },
+  "items": [
+    {
+      "id": "r-01",
+      "question": "候长吕宪的奉钱是多少",
+      "expect_codes": [
+        "DJ-train-3264"
+      ],
+      "answer_span": "候長吕憲奉錢千二百",
+      "elapsed_ms": 4676.6,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-3264",
+          "DJ-train-1407",
+          "DJ-train-1274",
+          "DJ-train-1275",
+          "DJ-train-1503"
+        ]
+      },
+      "vector": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-3264",
+          "DJ-train-2849",
+          "DJ-train-3901",
+          "DJ-train-5496",
+          "DJ-train-1336"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-3264",
+          "DJ-train-2849",
+          "DJ-train-1275",
+          "DJ-train-2862",
+          "DJ-train-2997"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 0.5,
+        "rank": 2,
+        "top_codes": [
+          "DJ-train-5496",
+          "DJ-train-3264",
+          "DJ-train-1274",
+          "DJ-train-1275",
+          "DJ-val-3019"
+        ]
+      }
+    },
+    {
+      "id": "r-02",
+      "question": "长安到茂陵有多远",
+      "expect_codes": [
+        "DJ-train-6393"
+      ],
+      "answer_span": "長安至茂陵七十里",
+      "elapsed_ms": 1334.8,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-6393",
+          "DJ-train-1397",
+          "DJ-train-4778",
+          "DJ-train-5102",
+          "DJ-train-5121"
+        ]
+      },
+      "vector": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-6393",
+          "DJ-train-5733",
+          "DJ-train-3761",
+          "DJ-train-5811",
+          "DJ-train-5901"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-6393",
+          "DJ-train-5811",
+          "DJ-train-1397",
+          "DJ-train-5733",
+          "DJ-train-3761"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-6393",
+          "DJ-train-5811",
+          "DJ-train-4778",
+          "DJ-train-5102",
+          "DJ-train-5733"
+        ]
+      }
+    },
+    {
+      "id": "r-03",
+      "question": "月氏到乌氏多少里",
+      "expect_codes": [
+        "DJ-train-6393"
+      ],
+      "answer_span": "月氏至烏氏五十里",
+      "elapsed_ms": 1202.0,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-6393"
+        ]
+      },
+      "vector": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-6393",
+          "DJ-train-4536",
+          "DJ-train-6090",
+          "DJ-train-7574",
+          "DJ-train-3395"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-6393",
+          "DJ-train-4536",
+          "DJ-train-6090",
+          "DJ-train-7574",
+          "DJ-train-3395"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-6393",
+          "DJ-train-1998",
+          "DJ-test-7565",
+          "DJ-train-7563",
+          "DJ-train-4242"
+        ]
+      }
+    },
+    {
+      "id": "r-04",
+      "question": "乌氏到泾阳多少里",
+      "expect_codes": [
+        "DJ-train-6393"
+      ],
+      "answer_span": "烏氏至涇陽五十里",
+      "elapsed_ms": 1385.6,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-6393"
+        ]
+      },
+      "vector": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-6393",
+          "DJ-train-3438",
+          "DJ-train-2936",
+          "DJ-train-1386",
+          "DJ-train-3779"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-6393",
+          "DJ-train-3438",
+          "DJ-train-2936",
+          "DJ-train-1386",
+          "DJ-train-3779"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-6393",
+          "DJ-train-3761",
+          "DJ-train-3438",
+          "DJ-val-5582",
+          "DJ-test-7399"
+        ]
+      }
+    },
+    {
+      "id": "r-05",
+      "question": "居延置到鲽里有多远",
+      "expect_codes": [
+        "DJ-train-6393"
+      ],
+      "answer_span": "居延置至鰈裏九十里",
+      "elapsed_ms": 1206.3,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-6393"
+        ]
+      },
+      "vector": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-6393",
+          "DJ-train-3761",
+          "DJ-val-3398",
+          "DJ-val-5095",
+          "DJ-val-5651"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-6393",
+          "DJ-train-3761",
+          "DJ-val-3398",
+          "DJ-val-5095",
+          "DJ-val-5651"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 0.5,
+        "rank": 2,
+        "top_codes": [
+          "DJ-train-7464",
+          "DJ-train-6393",
+          "DJ-train-3761",
+          "DJ-train-7178",
+          "DJ-val-5815"
+        ]
+      }
+    },
+    {
+      "id": "r-06",
+      "question": "夫人付给奉世多少干饭",
+      "expect_codes": [
+        "DJ-test-5633"
+      ],
+      "answer_span": "夫人付奉世干飯",
+      "elapsed_ms": 1266.6,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-test-5633",
+          "DJ-train-3011",
+          "DJ-train-3481",
+          "DJ-train-4917",
+          "DJ-train-5634"
+        ]
+      },
+      "vector": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-test-5633",
+          "DJ-train-1275",
+          "DJ-train-4932",
+          "DJ-val-4931",
+          "DJ-val-1704"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-test-5633",
+          "DJ-train-1275",
+          "DJ-train-3011",
+          "DJ-train-3481",
+          "DJ-train-4932"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-test-5633",
+          "DJ-train-1275",
+          "DJ-train-5634",
+          "DJ-val-3214",
+          "DJ-test-3838"
+        ]
+      }
+    },
+    {
+      "id": "r-07",
+      "question": "临木隧长徐忠的奉钱",
+      "expect_codes": [
+        "DJ-train-3264"
+      ],
+      "answer_span": "臨木隧長徐忠奉錢",
+      "elapsed_ms": 1302.6,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-3264",
+          "DJ-train-1157",
+          "DJ-train-221",
+          "DJ-train-2909",
+          "DJ-train-2997"
+        ]
+      },
+      "vector": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-3264",
+          "DJ-train-3028",
+          "DJ-train-3902",
+          "DJ-val-3750",
+          "DJ-test-2643"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-3264",
+          "DJ-train-2997",
+          "DJ-train-3062",
+          "DJ-train-2909",
+          "DJ-train-3056"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 0.5,
+        "rank": 2,
+        "top_codes": [
+          "DJ-train-3028",
+          "DJ-train-3264",
+          "DJ-train-4117",
+          "DJ-train-2997",
+          "DJ-val-3262"
+        ]
+      }
+    },
+    {
+      "id": "r-08",
+      "question": "建昭五年十月谁在付奉钱",
+      "expect_codes": [
+        "DJ-train-3264"
+      ],
+      "answer_span": "建昭五年十月丙寅",
+      "elapsed_ms": 1394.0,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-3264",
+          "DJ-train-3276",
+          "DJ-train-1407",
+          "DJ-train-2913",
+          "DJ-train-2947"
+        ]
+      },
+      "vector": {
+        "hit": false,
+        "rr": 0.0,
+        "rank": null,
+        "top_codes": [
+          "DJ-train-1275",
+          "DJ-train-4026",
+          "DJ-val-3061",
+          "DJ-train-3028",
+          "DJ-train-3902"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-3264",
+          "DJ-train-1275",
+          "DJ-train-1336",
+          "DJ-train-3276",
+          "DJ-train-4026"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-3264",
+          "DJ-train-4026",
+          "DJ-train-1407",
+          "DJ-test-3838",
+          "DJ-test-3003"
+        ]
+      }
+    },
+    {
+      "id": "r-09",
+      "question": "阳绀叩头记了什么",
+      "expect_codes": [
+        "DJ-train-1"
+      ],
+      "answer_span": "陽紺叩足頭",
+      "elapsed_ms": 1285.1,
+      "keyword": {
+        "hit": false,
+        "rr": 0.0,
+        "rank": null,
+        "top_codes": []
+      },
+      "vector": {
+        "hit": false,
+        "rr": 0.0,
+        "rank": null,
+        "top_codes": [
+          "DJ-train-7410",
+          "DJ-train-383",
+          "DJ-train-4642",
+          "DJ-train-2208",
+          "DJ-train-210"
+        ]
+      },
+      "rrf": {
+        "hit": false,
+        "rr": 0.0,
+        "rank": null,
+        "top_codes": [
+          "DJ-train-7410",
+          "DJ-train-383",
+          "DJ-train-4642",
+          "DJ-train-2208",
+          "DJ-train-210"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": false,
+        "rr": 0.0,
+        "rank": null,
+        "top_codes": [
+          "DJ-train-7410",
+          "DJ-train-2618",
+          "DJ-train-6331",
+          "DJ-train-5870",
+          "DJ-val-283"
+        ]
+      }
+    },
+    {
+      "id": "r-10",
+      "question": "尊取牛肠记了多少",
+      "expect_codes": [
+        "DJ-val-3057"
+      ],
+      "answer_span": "尊取牛腸",
+      "elapsed_ms": 1004.8,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-val-3057"
+        ]
+      },
+      "vector": {
+        "hit": false,
+        "rr": 0.0,
+        "rank": null,
+        "top_codes": [
+          "DJ-train-1034",
+          "DJ-train-913",
+          "DJ-test-343",
+          "DJ-train-4020",
+          "DJ-val-1704"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 0.5,
+        "rank": 2,
+        "top_codes": [
+          "DJ-train-1034",
+          "DJ-val-3057",
+          "DJ-train-913",
+          "DJ-test-343",
+          "DJ-train-4020"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-val-3057",
+          "DJ-train-4708",
+          "DJ-train-4020",
+          "DJ-train-6751",
+          "DJ-train-5067"
+        ]
+      }
+    },
+    {
+      "id": "r-11",
+      "question": "甲渠候官綏元元年",
+      "expect_codes": [
+        "DJ-train-2788"
+      ],
+      "answer_span": "甲渠候官綏元元年",
+      "elapsed_ms": 1241.8,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-2788",
+          "DJ-train-3197",
+          "DJ-train-1154",
+          "DJ-train-1269",
+          "DJ-train-2596"
+        ]
+      },
+      "vector": {
+        "hit": true,
+        "rr": 0.3333333333333333,
+        "rank": 3,
+        "top_codes": [
+          "DJ-train-3197",
+          "DJ-train-582",
+          "DJ-train-2788",
+          "DJ-train-5213",
+          "DJ-val-1606"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 0.5,
+        "rank": 2,
+        "top_codes": [
+          "DJ-train-3197",
+          "DJ-train-2788",
+          "DJ-train-582",
+          "DJ-train-1154",
+          "DJ-train-1269"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 0.25,
+        "rank": 4,
+        "top_codes": [
+          "DJ-train-1269",
+          "DJ-train-2944",
+          "DJ-train-3197",
+          "DJ-train-2788",
+          "DJ-test-2675"
+        ]
+      }
+    },
+    {
+      "id": "r-12",
+      "question": "月食三石二月辛亥",
+      "expect_codes": [
+        "DJ-test-818",
+        "DJ-train-1113"
+      ],
+      "answer_span": "月食三石二月辛亥",
+      "elapsed_ms": 631.0,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1113",
+          "DJ-train-1085",
+          "DJ-train-1134",
+          "DJ-train-1139",
+          "DJ-train-1140"
+        ]
+      },
+      "vector": {
+        "hit": false,
+        "rr": 0.0,
+        "rank": null,
+        "top_codes": [
+          "DJ-val-1138",
+          "DJ-test-2118",
+          "DJ-train-1137",
+          "DJ-train-7136",
+          "DJ-train-1134"
+        ]
+      },
+      "rrf": {
+        "hit": false,
+        "rr": 0.0,
+        "rank": null,
+        "top_codes": [
+          "DJ-train-1085",
+          "DJ-train-1134",
+          "DJ-train-1137",
+          "DJ-train-1136",
+          "DJ-train-1577"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 0.3333333333333333,
+        "rank": 3,
+        "top_codes": [
+          "DJ-train-1085",
+          "DJ-test-2118",
+          "DJ-train-1113",
+          "DJ-test-1124",
+          "DJ-train-1134"
+        ]
+      }
+    },
+    {
+      "id": "r-13",
+      "question": "三斗三升大大亖斛",
+      "expect_codes": [
+        "DJ-train-10"
+      ],
+      "answer_span": "三斗三升大大亖斛",
+      "elapsed_ms": 806.2,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-10",
+          "DJ-train-1155",
+          "DJ-train-1538",
+          "DJ-train-1568",
+          "DJ-train-1577"
+        ]
+      },
+      "vector": {
+        "hit": false,
+        "rr": 0.0,
+        "rank": null,
+        "top_codes": [
+          "DJ-val-5710",
+          "DJ-test-2022",
+          "DJ-train-7976",
+          "DJ-train-7039",
+          "DJ-train-3841"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-10",
+          "DJ-train-3506",
+          "DJ-val-5710",
+          "DJ-train-1155",
+          "DJ-test-2022"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-10",
+          "DJ-val-2476",
+          "DJ-train-7412",
+          "DJ-train-7972",
+          "DJ-val-5710"
+        ]
+      }
+    },
+    {
+      "id": "r-14",
+      "question": "斗三升少六月辛未",
+      "expect_codes": [
+        "DJ-train-2510"
+      ],
+      "answer_span": "斗三升少六月辛未",
+      "elapsed_ms": 900.1,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-2510",
+          "DJ-train-3192",
+          "DJ-train-1155",
+          "DJ-train-1538",
+          "DJ-train-1568"
+        ]
+      },
+      "vector": {
+        "hit": false,
+        "rr": 0.0,
+        "rank": null,
+        "top_codes": [
+          "DJ-val-5600",
+          "DJ-test-1660",
+          "DJ-train-3696",
+          "DJ-val-7967",
+          "DJ-train-6570"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-2510",
+          "DJ-train-3192",
+          "DJ-train-1568",
+          "DJ-train-2770",
+          "DJ-train-3696"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-2510",
+          "DJ-train-2770",
+          "DJ-train-6570",
+          "DJ-train-7244",
+          "DJ-train-3192"
+        ]
+      }
+    },
+    {
+      "id": "r-15",
+      "question": "居延都尉博城骑千",
+      "expect_codes": [
+        "DJ-train-1767"
+      ],
+      "answer_span": "居延都尉博城騎千",
+      "elapsed_ms": 1026.1,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1767",
+          "DJ-train-3443",
+          "DJ-test-5304",
+          "DJ-train-1389",
+          "DJ-train-244"
+        ]
+      },
+      "vector": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1767",
+          "DJ-train-4726",
+          "DJ-train-3443",
+          "DJ-test-5304",
+          "DJ-train-444"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1767",
+          "DJ-train-3443",
+          "DJ-test-5304",
+          "DJ-train-4726",
+          "DJ-train-2842"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 0.3333333333333333,
+        "rank": 3,
+        "top_codes": [
+          "DJ-test-5304",
+          "DJ-train-3443",
+          "DJ-train-1767",
+          "DJ-train-4726",
+          "DJ-train-5471"
+        ]
+      }
+    },
+    {
+      "id": "r-16",
+      "question": "居延甲渠候放免冠",
+      "expect_codes": [
+        "DJ-train-1502"
+      ],
+      "answer_span": "居延甲渠候放免冠",
+      "elapsed_ms": 700.7,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1502",
+          "DJ-train-1336",
+          "DJ-train-1682",
+          "DJ-train-398",
+          "DJ-train-723"
+        ]
+      },
+      "vector": {
+        "hit": true,
+        "rr": 0.5,
+        "rank": 2,
+        "top_codes": [
+          "DJ-val-3398",
+          "DJ-train-1502",
+          "DJ-train-723",
+          "DJ-test-138",
+          "DJ-train-4209"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1502",
+          "DJ-train-723",
+          "DJ-test-138",
+          "DJ-train-398",
+          "DJ-train-1682"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1502",
+          "DJ-train-6519",
+          "DJ-test-6336",
+          "DJ-train-4209",
+          "DJ-train-753"
+        ]
+      }
+    },
+    {
+      "id": "r-17",
+      "question": "叩头死罪死罪十月",
+      "expect_codes": [
+        "DJ-train-139"
+      ],
+      "answer_span": "叩頭死罪死罪十月",
+      "elapsed_ms": 968.0,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-139",
+          "DJ-train-1107",
+          "DJ-train-140",
+          "DJ-train-1502",
+          "DJ-train-156"
+        ]
+      },
+      "vector": {
+        "hit": true,
+        "rr": 0.5,
+        "rank": 2,
+        "top_codes": [
+          "DJ-train-2527",
+          "DJ-train-139",
+          "DJ-val-283",
+          "DJ-train-4642",
+          "DJ-train-2208"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-139",
+          "DJ-train-1107",
+          "DJ-train-210",
+          "DJ-train-2208",
+          "DJ-train-2186"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-139",
+          "DJ-train-1107",
+          "DJ-train-210",
+          "DJ-val-283",
+          "DJ-train-2208"
+        ]
+      }
+    },
+    {
+      "id": "r-18",
+      "question": "甲渠鄣候汉彊等充",
+      "expect_codes": [
+        "DJ-train-1333"
+      ],
+      "answer_span": "甲渠鄣候漢彊等充",
+      "elapsed_ms": 689.7,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1333",
+          "DJ-train-5216",
+          "DJ-train-5463",
+          "DJ-train-1326",
+          "DJ-train-1963"
+        ]
+      },
+      "vector": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1333",
+          "DJ-train-582",
+          "DJ-test-630",
+          "DJ-train-627",
+          "DJ-test-2675"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1333",
+          "DJ-train-5216",
+          "DJ-train-582",
+          "DJ-train-5463",
+          "DJ-test-630"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 0.5,
+        "rank": 2,
+        "top_codes": [
+          "DJ-train-5216",
+          "DJ-train-1333",
+          "DJ-train-4914",
+          "DJ-train-2064",
+          "DJ-train-5463"
+        ]
+      }
+    },
+    {
+      "id": "r-19",
+      "question": "戍卒魏郡内黄半道",
+      "expect_codes": [
+        "DJ-train-1398"
+      ],
+      "answer_span": "戍卒魏郡内黄半道",
+      "elapsed_ms": 731.1,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1398",
+          "DJ-train-5166",
+          "DJ-val-3595",
+          "DJ-train-2625",
+          "DJ-train-2810"
+        ]
+      },
+      "vector": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1398",
+          "DJ-val-3595",
+          "DJ-test-5087",
+          "DJ-train-5166",
+          "DJ-val-5502"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1398",
+          "DJ-val-3595",
+          "DJ-train-5166",
+          "DJ-train-3233",
+          "DJ-train-3325"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 0.25,
+        "rank": 4,
+        "top_codes": [
+          "DJ-val-3595",
+          "DJ-train-3325",
+          "DJ-test-5087",
+          "DJ-train-1398",
+          "DJ-val-5502"
+        ]
+      }
+    },
+    {
+      "id": "r-20",
+      "question": "新始建国地上戊亖",
+      "expect_codes": [
+        "DJ-train-1146"
+      ],
+      "answer_span": "新始建國地上戊亖",
+      "elapsed_ms": 658.1,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1146",
+          "DJ-train-339",
+          "DJ-train-346",
+          "DJ-train-383",
+          "DJ-train-454"
+        ]
+      },
+      "vector": {
+        "hit": false,
+        "rr": 0.0,
+        "rank": null,
+        "top_codes": [
+          "DJ-val-2136",
+          "DJ-train-7693",
+          "DJ-val-1741",
+          "DJ-train-7038",
+          "DJ-train-506"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1146",
+          "DJ-train-506",
+          "DJ-train-7038",
+          "DJ-train-454",
+          "DJ-train-509"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": false,
+        "rr": 0.0,
+        "rank": null,
+        "top_codes": [
+          "DJ-train-506",
+          "DJ-train-7038",
+          "DJ-train-483",
+          "DJ-val-2136",
+          "DJ-train-7693"
+        ]
+      }
+    },
+    {
+      "id": "r-21",
+      "question": "年十二月中与彭祖",
+      "expect_codes": [
+        "DJ-train-1436"
+      ],
+      "answer_span": "年十二月中與彭祖",
+      "elapsed_ms": 1241.3,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1436",
+          "DJ-train-183",
+          "DJ-train-2116",
+          "DJ-train-2489",
+          "DJ-train-2595"
+        ]
+      },
+      "vector": {
+        "hit": false,
+        "rr": 0.0,
+        "rank": null,
+        "top_codes": [
+          "DJ-train-3695",
+          "DJ-test-6502",
+          "DJ-train-3044",
+          "DJ-test-3070",
+          "DJ-train-6854"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 0.5,
+        "rank": 2,
+        "top_codes": [
+          "DJ-train-310",
+          "DJ-train-1436",
+          "DJ-train-3695",
+          "DJ-train-183",
+          "DJ-test-6502"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1436",
+          "DJ-train-201",
+          "DJ-train-3695",
+          "DJ-train-6854",
+          "DJ-train-2851"
+        ]
+      }
+    },
+    {
+      "id": "r-22",
+      "question": "食三石三月丙戌自",
+      "expect_codes": [
+        "DJ-train-1137"
+      ],
+      "answer_span": "食三石三月丙戌自",
+      "elapsed_ms": 1034.2,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1137",
+          "DJ-train-1136",
+          "DJ-train-1144",
+          "DJ-train-1538",
+          "DJ-train-1568"
+        ]
+      },
+      "vector": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1137",
+          "DJ-val-1138",
+          "DJ-train-1136",
+          "DJ-test-2118",
+          "DJ-train-6977"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1137",
+          "DJ-train-1136",
+          "DJ-train-2510",
+          "DJ-train-1134",
+          "DJ-train-1080"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1137",
+          "DJ-train-1136",
+          "DJ-val-1138",
+          "DJ-val-7967",
+          "DJ-train-2510"
+        ]
+      }
+    },
+    {
+      "id": "r-23",
+      "question": "建国地皇上戊三年",
+      "expect_codes": [
+        "DJ-train-1990",
+        "DJ-train-2283",
+        "DJ-train-7008"
+      ],
+      "answer_span": "建國地皇上戊三年",
+      "elapsed_ms": 1250.4,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1990",
+          "DJ-train-2283",
+          "DJ-train-2446",
+          "DJ-train-339",
+          "DJ-train-346"
+        ]
+      },
+      "vector": {
+        "hit": true,
+        "rr": 0.25,
+        "rank": 4,
+        "top_codes": [
+          "DJ-test-1590",
+          "DJ-val-1741",
+          "DJ-val-2136",
+          "DJ-train-1990",
+          "DJ-train-583"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1990",
+          "DJ-train-2283",
+          "DJ-train-506",
+          "DJ-train-583",
+          "DJ-train-454"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 0.5,
+        "rank": 2,
+        "top_codes": [
+          "DJ-train-2446",
+          "DJ-train-1990",
+          "DJ-train-2283",
+          "DJ-train-6749",
+          "DJ-train-583"
+        ]
+      }
+    },
+    {
+      "id": "r-24",
+      "question": "建国天鳳一年十二",
+      "expect_codes": [
+        "DJ-train-5647",
+        "DJ-train-895"
+      ],
+      "answer_span": "建國天鳳一年十二",
+      "elapsed_ms": 719.3,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-5647",
+          "DJ-train-895",
+          "DJ-train-6381",
+          "DJ-train-6709",
+          "DJ-train-7225"
+        ]
+      },
+      "vector": {
+        "hit": false,
+        "rr": 0.0,
+        "rank": null,
+        "top_codes": [
+          "DJ-train-6709",
+          "DJ-train-6089",
+          "DJ-train-1250",
+          "DJ-test-6123",
+          "DJ-train-71"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 0.5,
+        "rank": 2,
+        "top_codes": [
+          "DJ-train-6709",
+          "DJ-train-5647",
+          "DJ-train-1250",
+          "DJ-train-895",
+          "DJ-train-7225"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 0.5,
+        "rank": 2,
+        "top_codes": [
+          "DJ-test-6069",
+          "DJ-train-895",
+          "DJ-train-5647",
+          "DJ-train-6381",
+          "DJ-train-6452"
+        ]
+      }
+    },
+    {
+      "id": "r-25",
+      "question": "十一月食二石一斗",
+      "expect_codes": [
+        "DJ-train-1542"
+      ],
+      "answer_span": "十一月食二石一斗",
+      "elapsed_ms": 584.4,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1542",
+          "DJ-train-6369",
+          "DJ-train-1509",
+          "DJ-train-1652",
+          "DJ-train-1680"
+        ]
+      },
+      "vector": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1542",
+          "DJ-val-7083",
+          "DJ-train-4964",
+          "DJ-train-6972",
+          "DJ-train-7136"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1542",
+          "DJ-train-197",
+          "DJ-train-1509",
+          "DJ-train-5476",
+          "DJ-train-1085"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1542",
+          "DJ-train-1509",
+          "DJ-train-2878",
+          "DJ-train-5476",
+          "DJ-val-7029"
+        ]
+      }
+    },
+    {
+      "id": "r-26",
+      "question": "国地皇上戊三年中",
+      "expect_codes": [
+        "DJ-train-2283"
+      ],
+      "answer_span": "國地皇上戊三年中",
+      "elapsed_ms": 809.3,
+      "keyword": {
+        "hit": true,
+        "rr": 0.5,
+        "rank": 2,
+        "top_codes": [
+          "DJ-train-1990",
+          "DJ-train-2283",
+          "DJ-train-2446",
+          "DJ-train-7008",
+          "DJ-train-1987"
+        ]
+      },
+      "vector": {
+        "hit": true,
+        "rr": 0.3333333333333333,
+        "rank": 3,
+        "top_codes": [
+          "DJ-train-2446",
+          "DJ-train-6749",
+          "DJ-train-2283",
+          "DJ-test-1590",
+          "DJ-val-2136"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 0.5,
+        "rank": 2,
+        "top_codes": [
+          "DJ-train-2446",
+          "DJ-train-2283",
+          "DJ-train-1990",
+          "DJ-train-7008",
+          "DJ-train-583"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 0.5,
+        "rank": 2,
+        "top_codes": [
+          "DJ-train-2446",
+          "DJ-train-2283",
+          "DJ-train-1990",
+          "DJ-train-583",
+          "DJ-train-6749"
+        ]
+      }
+    },
+    {
+      "id": "r-27",
+      "question": "建武六年七月丁未",
+      "expect_codes": [
+        "DJ-train-380"
+      ],
+      "answer_span": "建武六年七月丁未",
+      "elapsed_ms": 807.8,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-380",
+          "DJ-train-537",
+          "DJ-train-689",
+          "DJ-train-713",
+          "DJ-train-7461"
+        ]
+      },
+      "vector": {
+        "hit": false,
+        "rr": 0.0,
+        "rank": null,
+        "top_codes": [
+          "DJ-train-6567",
+          "DJ-train-2004",
+          "DJ-train-713",
+          "DJ-val-4145",
+          "DJ-train-689"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 0.2,
+        "rank": 5,
+        "top_codes": [
+          "DJ-train-713",
+          "DJ-train-689",
+          "DJ-train-537",
+          "DJ-train-7461",
+          "DJ-train-380"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 0.5,
+        "rank": 2,
+        "top_codes": [
+          "DJ-val-558",
+          "DJ-train-380",
+          "DJ-train-2391",
+          "DJ-train-6567",
+          "DJ-train-537"
+        ]
+      }
+    },
+    {
+      "id": "r-28",
+      "question": "甲渠鄣守候博叩头",
+      "expect_codes": [
+        "DJ-train-210"
+      ],
+      "answer_span": "甲渠鄣守候博叩頭",
+      "elapsed_ms": 1220.3,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-210",
+          "DJ-train-2186",
+          "DJ-train-398",
+          "DJ-train-597",
+          "DJ-train-723"
+        ]
+      },
+      "vector": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-210",
+          "DJ-test-7198",
+          "DJ-train-723",
+          "DJ-train-2361",
+          "DJ-train-2186"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-210",
+          "DJ-train-2186",
+          "DJ-train-723",
+          "DJ-train-2119",
+          "DJ-train-1659"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 0.5,
+        "rank": 2,
+        "top_codes": [
+          "DJ-train-2361",
+          "DJ-train-210",
+          "DJ-train-7410",
+          "DJ-train-2841",
+          "DJ-train-3871"
+        ]
+      }
+    },
+    {
+      "id": "r-29",
+      "question": "年十一月乙未朔辛",
+      "expect_codes": [
+        "DJ-train-1152"
+      ],
+      "answer_span": "年十一月乙未朔辛",
+      "elapsed_ms": 1075.4,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1152",
+          "DJ-train-5556",
+          "DJ-train-1316",
+          "DJ-train-196",
+          "DJ-train-210"
+        ]
+      },
+      "vector": {
+        "hit": false,
+        "rr": 0.0,
+        "rank": null,
+        "top_codes": [
+          "DJ-train-6272",
+          "DJ-train-3911",
+          "DJ-val-6084",
+          "DJ-train-5754",
+          "DJ-train-4143"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1152",
+          "DJ-train-6272",
+          "DJ-train-3911",
+          "DJ-train-5556",
+          "DJ-train-1316"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1152",
+          "DJ-train-5556",
+          "DJ-train-7526",
+          "DJ-train-6272",
+          "DJ-train-196"
+        ]
+      }
+    },
+    {
+      "id": "r-30",
+      "question": "渠鄣守候敢言之谨",
+      "expect_codes": [
+        "DJ-train-1659",
+        "DJ-train-570"
+      ],
+      "answer_span": "渠鄣守候敢言之謹",
+      "elapsed_ms": 700.3,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1659",
+          "DJ-train-2186",
+          "DJ-train-210",
+          "DJ-train-2119",
+          "DJ-train-2417"
+        ]
+      },
+      "vector": {
+        "hit": true,
+        "rr": 0.2,
+        "rank": 5,
+        "top_codes": [
+          "DJ-train-2417",
+          "DJ-test-599",
+          "DJ-train-680",
+          "DJ-train-2186",
+          "DJ-train-1659"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1659",
+          "DJ-train-2417",
+          "DJ-train-2186",
+          "DJ-train-2832",
+          "DJ-test-599"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 0.25,
+        "rank": 4,
+        "top_codes": [
+          "DJ-train-704",
+          "DJ-train-689",
+          "DJ-test-599",
+          "DJ-train-1659",
+          "DJ-train-680"
+        ]
+      }
+    },
+    {
+      "id": "r-31",
+      "question": "一月食一斛五斗三",
+      "expect_codes": [
+        "DJ-train-6878"
+      ],
+      "answer_span": "一月食一斛五斗三",
+      "elapsed_ms": 873.9,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-6878",
+          "DJ-train-4964",
+          "DJ-train-6854",
+          "DJ-train-6865",
+          "DJ-train-6889"
+        ]
+      },
+      "vector": {
+        "hit": false,
+        "rr": 0.0,
+        "rank": null,
+        "top_codes": [
+          "DJ-val-7083",
+          "DJ-train-4964",
+          "DJ-train-7412",
+          "DJ-test-5967",
+          "DJ-val-7029"
+        ]
+      },
+      "rrf": {
+        "hit": false,
+        "rr": 0.0,
+        "rank": null,
+        "top_codes": [
+          "DJ-train-4964",
+          "DJ-val-7083",
+          "DJ-train-6889",
+          "DJ-train-7079",
+          "DJ-val-7029"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": false,
+        "rr": 0.0,
+        "rank": null,
+        "top_codes": [
+          "DJ-train-6865",
+          "DJ-train-7412",
+          "DJ-val-7029",
+          "DJ-train-6889",
+          "DJ-train-6913"
+        ]
+      }
+    },
+    {
+      "id": "r-32",
+      "question": "建武五年三月丙子",
+      "expect_codes": [
+        "DJ-train-1148"
+      ],
+      "answer_span": "建武五年三月丙子",
+      "elapsed_ms": 877.3,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1148",
+          "DJ-train-5660",
+          "DJ-train-1186",
+          "DJ-train-1336",
+          "DJ-train-1823"
+        ]
+      },
+      "vector": {
+        "hit": true,
+        "rr": 0.25,
+        "rank": 4,
+        "top_codes": [
+          "DJ-train-4231",
+          "DJ-train-870",
+          "DJ-train-7672",
+          "DJ-train-1148",
+          "DJ-train-570"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1148",
+          "DJ-train-570",
+          "DJ-train-356",
+          "DJ-train-4231",
+          "DJ-train-5660"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 0.5,
+        "rank": 2,
+        "top_codes": [
+          "DJ-val-586",
+          "DJ-train-1148",
+          "DJ-train-4231",
+          "DJ-train-1981",
+          "DJ-train-5660"
+        ]
+      }
+    },
+    {
+      "id": "r-33",
+      "question": "戍卒东郡清世里鞠",
+      "expect_codes": [
+        "DJ-train-2893"
+      ],
+      "answer_span": "戍卒東郡清世里鞠",
+      "elapsed_ms": 1197.6,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-2893",
+          "DJ-train-2894",
+          "DJ-train-3222",
+          "DJ-train-3693",
+          "DJ-train-3695"
+        ]
+      },
+      "vector": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-2893",
+          "DJ-train-3869",
+          "DJ-train-6149",
+          "DJ-train-5229",
+          "DJ-train-5035"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-2893",
+          "DJ-train-3869",
+          "DJ-train-2894",
+          "DJ-train-3693",
+          "DJ-train-5035"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 0.5,
+        "rank": 2,
+        "top_codes": [
+          "DJ-train-6149",
+          "DJ-train-2893",
+          "DJ-train-5229",
+          "DJ-train-5169",
+          "DJ-train-3869"
+        ]
+      }
+    },
+    {
+      "id": "r-34",
+      "question": "十二月辛巳第願十",
+      "expect_codes": [
+        "DJ-train-3044"
+      ],
+      "answer_span": "十二月辛巳第願十",
+      "elapsed_ms": 972.9,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-3044",
+          "DJ-train-2596",
+          "DJ-train-2758",
+          "DJ-train-10",
+          "DJ-train-1080"
+        ]
+      },
+      "vector": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-3044",
+          "DJ-train-3334",
+          "DJ-train-5946",
+          "DJ-train-7431",
+          "DJ-train-2286"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-3044",
+          "DJ-train-1080",
+          "DJ-train-2596",
+          "DJ-train-3334",
+          "DJ-train-2758"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-3044",
+          "DJ-train-7087",
+          "DJ-train-1091",
+          "DJ-train-3334",
+          "DJ-train-1080"
+        ]
+      }
+    },
+    {
+      "id": "r-35",
+      "question": "吞远候长詡𨼾次行",
+      "expect_codes": [
+        "DJ-train-1760"
+      ],
+      "answer_span": "吞遠候長詡𨼾次行",
+      "elapsed_ms": 1605.1,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1760",
+          "DJ-train-1450",
+          "DJ-train-1541",
+          "DJ-train-2123",
+          "DJ-train-2141"
+        ]
+      },
+      "vector": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1760",
+          "DJ-train-6516",
+          "DJ-train-3748",
+          "DJ-train-7334",
+          "DJ-train-577"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1760",
+          "DJ-train-1450",
+          "DJ-train-2123",
+          "DJ-train-2141",
+          "DJ-train-6516"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1760",
+          "DJ-test-6126",
+          "DJ-train-651",
+          "DJ-train-1541",
+          "DJ-train-1450"
+        ]
+      }
+    },
+    {
+      "id": "r-36",
+      "question": "皇上戊亖年亖月戊",
+      "expect_codes": [
+        "DJ-train-1858"
+      ],
+      "answer_span": "皇上戊亖年亖月戊",
+      "elapsed_ms": 643.2,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1858",
+          "DJ-train-7038",
+          "DJ-train-339",
+          "DJ-train-346",
+          "DJ-train-383"
+        ]
+      },
+      "vector": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1858",
+          "DJ-train-7038",
+          "DJ-train-621",
+          "DJ-train-620",
+          "DJ-train-6428"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1858",
+          "DJ-train-7038",
+          "DJ-train-454",
+          "DJ-train-509",
+          "DJ-train-506"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1858",
+          "DJ-train-346",
+          "DJ-train-383",
+          "DJ-train-620",
+          "DJ-train-621"
+        ]
+      }
+    },
+    {
+      "id": "r-37",
+      "question": "延甲渠第十𨼾长居",
+      "expect_codes": [
+        "DJ-train-2189"
+      ],
+      "answer_span": "延甲渠第十𨼾長居",
+      "elapsed_ms": 821.6,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-2189",
+          "DJ-train-3248",
+          "DJ-train-2516",
+          "DJ-train-2646",
+          "DJ-train-1336"
+        ]
+      },
+      "vector": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-2189",
+          "DJ-train-2646",
+          "DJ-val-3398",
+          "DJ-train-580",
+          "DJ-train-2516"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-2189",
+          "DJ-train-2646",
+          "DJ-train-2516",
+          "DJ-train-580",
+          "DJ-val-3398"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-2189",
+          "DJ-train-580",
+          "DJ-train-2990",
+          "DJ-train-4729",
+          "DJ-val-3398"
+        ]
+      }
+    },
+    {
+      "id": "r-38",
+      "question": "延都尉章詣張掖大",
+      "expect_codes": [
+        "DJ-train-2924",
+        "DJ-train-3186"
+      ],
+      "answer_span": "延都尉章詣張掖大",
+      "elapsed_ms": 1062.9,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-2924",
+          "DJ-train-3186",
+          "DJ-train-2742",
+          "DJ-test-4225",
+          "DJ-train-2661"
+        ]
+      },
+      "vector": {
+        "hit": false,
+        "rr": 0.0,
+        "rank": null,
+        "top_codes": [
+          "DJ-test-4225",
+          "DJ-train-914",
+          "DJ-train-40",
+          "DJ-train-2742",
+          "DJ-train-3377"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 0.3333333333333333,
+        "rank": 3,
+        "top_codes": [
+          "DJ-test-4225",
+          "DJ-train-2742",
+          "DJ-train-3186",
+          "DJ-train-2924",
+          "DJ-train-40"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 0.2,
+        "rank": 5,
+        "top_codes": [
+          "DJ-train-3377",
+          "DJ-train-542",
+          "DJ-train-40",
+          "DJ-train-2742",
+          "DJ-train-3186"
+        ]
+      }
+    },
+    {
+      "id": "r-39",
+      "question": "承书从事農都下当",
+      "expect_codes": [
+        "DJ-train-4096"
+      ],
+      "answer_span": "承書從事農都下當",
+      "elapsed_ms": 1796.9,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-4096",
+          "DJ-train-1445",
+          "DJ-train-2814",
+          "DJ-train-3767",
+          "DJ-train-4600"
+        ]
+      },
+      "vector": {
+        "hit": false,
+        "rr": 0.0,
+        "rank": null,
+        "top_codes": [
+          "DJ-train-3767",
+          "DJ-train-889",
+          "DJ-test-5885",
+          "DJ-train-6039",
+          "DJ-train-4998"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 0.5,
+        "rank": 2,
+        "top_codes": [
+          "DJ-train-3767",
+          "DJ-train-4096",
+          "DJ-train-889",
+          "DJ-train-4600",
+          "DJ-train-4998"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 0.25,
+        "rank": 4,
+        "top_codes": [
+          "DJ-train-2814",
+          "DJ-train-4998",
+          "DJ-train-5877",
+          "DJ-train-4096",
+          "DJ-val-3177"
+        ]
+      }
+    },
+    {
+      "id": "r-40",
+      "question": "上戊亖年桼月尽九",
+      "expect_codes": [
+        "DJ-test-1158",
+        "DJ-train-1146"
+      ],
+      "answer_span": "上戊亖年桼月盡九",
+      "elapsed_ms": 1151.2,
+      "keyword": {
+        "hit": true,
+        "rr": 1.0,
+        "rank": 1,
+        "top_codes": [
+          "DJ-train-1146",
+          "DJ-test-1158",
+          "DJ-train-454",
+          "DJ-train-620",
+          "DJ-train-621"
+        ]
+      },
+      "vector": {
+        "hit": false,
+        "rr": 0.0,
+        "rank": null,
+        "top_codes": [
+          "DJ-train-620",
+          "DJ-train-621",
+          "DJ-train-5846",
+          "DJ-train-5873",
+          "DJ-train-7158"
+        ]
+      },
+      "rrf": {
+        "hit": true,
+        "rr": 0.3333333333333333,
+        "rank": 3,
+        "top_codes": [
+          "DJ-train-620",
+          "DJ-train-621",
+          "DJ-train-1146",
+          "DJ-train-7836",
+          "DJ-test-1158"
+        ]
+      },
+      "rrf_rerank": {
+        "hit": true,
+        "rr": 0.3333333333333333,
+        "rank": 3,
+        "top_codes": [
+          "DJ-train-620",
+          "DJ-train-621",
+          "DJ-train-1146",
+          "DJ-test-1158",
+          "DJ-train-1858"
+        ]
+      }
+    }
+  ]
+}

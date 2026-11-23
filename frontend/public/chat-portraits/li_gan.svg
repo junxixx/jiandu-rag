@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 280" width="220" height="280">
+  <defs>
+    <linearGradient id="lg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4e8d8"/>
+      <stop offset="45%" stop-color="#e8d4bc"/>
+      <stop offset="100%" stop-color="#d4b896"/>
+    </linearGradient>
+    <linearGradient id="robe" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6b4c32"/>
+      <stop offset="100%" stop-color="#4a3420"/>
+    </linearGradient>
+    <radialGradient id="wash" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#fff8f0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#c9a882" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="0.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="220" height="280" rx="6" fill="url(#lg)"/>
+  <rect x="10" y="10" width="200" height="260" rx="4" fill="none" stroke="#8b6914" stroke-width="1.2" opacity="0.35"/>
+  <rect x="14" y="14" width="192" height="252" rx="2" fill="none" stroke="#5c4030" stroke-width="0.6" opacity="0.2"/>
+  <ellipse cx="110" cy="248" rx="72" ry="10" fill="#a08060" opacity="0.12"/>
+  <ellipse cx="110" cy="95" rx="78" ry="88" fill="url(#wash)"/>
+  <path filter="url(#soft)" fill="url(#robe)" d="M110 118 C78 118 52 145 48 188 L44 262 L176 262 L172 188 C168 145 142 118 110 118Z"/>
+  <path fill="#3d2818" opacity="0.85" d="M110 118 L88 175 L132 175 Z"/>
+  <ellipse cx="110" cy="72" rx="34" ry="40" fill="#e8d4bc"/>
+  <ellipse cx="110" cy="78" rx="30" ry="36" fill="#d4b896" opacity="0.5"/>
+  <path fill="#2a1810" opacity="0.65" d="M88 58 Q110 48 132 58 Q128 42 110 38 Q92 42 88 58Z"/>
+  <ellipse cx="110" cy="52" rx="22" ry="14" fill="#2a1810" opacity="0.5"/>
+  <path stroke="#5c4030" stroke-width="1.2" fill="none" opacity="0.25" d="M82 95 Q110 108 138 95"/>
+</svg>
